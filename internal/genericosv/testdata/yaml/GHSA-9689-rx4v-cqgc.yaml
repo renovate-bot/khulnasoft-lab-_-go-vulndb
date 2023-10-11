@@ -1,0 +1,29 @@
+id: GO-TEST-ID
+modules:
+    - module: github.com/concourse/concourse
+      versions:
+        - fixed: 5.2.8
+        - introduced: 5.3.0
+          fixed: 5.5.10
+        - introduced: 5.6.0
+          fixed: 5.8.1
+      packages:
+        - package: github.com/concourse/concourse/skymarshal/skyserver
+summary: Open Redirect
+description: |-
+    Pivotal Concourse Release, versions 4.x prior to 4.2.2, login flow allows
+    redirects to untrusted websites. A remote unauthenticated attacker could
+    convince a user to click on a link using the oAuth redirect link with an
+    untrusted website and gain access to that user's access token in Concourse.
+cves:
+    - CVE-2018-15798
+ghsas:
+    - GHSA-9689-rx4v-cqgc
+references:
+    - advisory: https://nvd.nist.gov/vuln/detail/CVE-2018-15798
+    - fix: https://github.com/concourse/concourse/pull/5350/commits/38cb4cc025e5ed28764b4adc363a0bbf41f3c7cb
+    - web: https://github.com/concourse/concourse/blob/release/5.2.x/release-notes/v5.2.8.md
+    - web: https://pivotal.io/security/cve-2018-15798
+notes:
+    - 'lint: github.com/concourse/concourse: bad version "5.2.8": github.com/concourse/concourse@v5.2.8: invalid version: should be v0 or v1, not v5'
+    - 'lint: github.com/concourse/concourse: missing skip_fix and vulnerable_at: "github.com/concourse/concourse/skymarshal/skyserver"'
