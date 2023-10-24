@@ -34,7 +34,7 @@ require (
 	google.golang.org/grpc v1.55.0
 	gopkg.in/yaml.v3 v3.0.1
 	honnef.co/go/tools v0.4.3
-	mvdan.cc/unparam v0.0.0-20230312165513-e84e2d14e3b8
+	mvdan.cc/unparam v0.0.0-20230917202934-3ee2d22f45fb
 )
 
 require (
