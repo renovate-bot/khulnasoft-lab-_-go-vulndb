@@ -23,8 +23,8 @@ require (
 	github.com/shurcooL/githubv4 v0.0.0-20230704064427-599ae7bbf278
 	go.opentelemetry.io/otel v1.11.2
 	go.opentelemetry.io/otel/sdk v1.4.0
-	golang.org/x/exp v0.0.0-20230905200255-921286631fa9
-	golang.org/x/exp/event v0.0.0-20231006140011-7918f672742d
+	golang.org/x/exp v0.0.0-20231006140011-7918f672742d
+	golang.org/x/exp/event v0.0.0-20220218215828-6cf2b201936e
 	golang.org/x/mod v0.13.0
 	golang.org/x/oauth2 v0.13.0
 	golang.org/x/sync v0.4.0

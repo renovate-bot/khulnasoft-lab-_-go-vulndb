@@ -386,6 +386,8 @@ golang.org/x/exp v0.0.0-20200207192155-f17229e696bd/go.mod h1:J/WKrq2StrnmMY6+EH
 golang.org/x/exp v0.0.0-20200224162631-6cc2880d07d6/go.mod h1:3jZMyOhIsHpP37uCMkUooju7aAi5cS1Q23tOzKc+0MU=
 golang.org/x/exp v0.0.0-20230905200255-921286631fa9 h1:GoHiUyI/Tp2nVkLI2mCxVkOjsbSXD66ic0XW0js0R9g=
 golang.org/x/exp v0.0.0-20230905200255-921286631fa9/go.mod h1:S2oDrQGGwySpoQPVqRShND87VCbxmc6bL1Yd2oYrm6k=
+golang.org/x/exp v0.0.0-20231006140011-7918f672742d h1:jtJma62tbqLibJ5sFQz8bKtEM8rJBtfilJ2qTU199MI=
+golang.org/x/exp v0.0.0-20231006140011-7918f672742d/go.mod h1:ldy0pHrwJyGW56pPQzzkH36rKxoZW1tw7ZJpeKx+hdo=
 golang.org/x/exp/event v0.0.0-20220218215828-6cf2b201936e h1:K2AuHMC+jaRTzAcivRwKOzjTZ1925Yx4xHMg07YoBQc=
 golang.org/x/exp/event v0.0.0-20220218215828-6cf2b201936e/go.mod h1:AVlZHjhWbW/3yOcmKMtJiObwBPJajBlUpQXRijFNrNc=
 golang.org/x/exp/event v0.0.0-20231006140011-7918f672742d h1:clRlOdn1txY8JESI7Dx1+cgmONWITUjtNvPvbPefNr0=
