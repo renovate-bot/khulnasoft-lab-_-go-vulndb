@@ -33,7 +33,7 @@ require (
 	google.golang.org/api v0.128.0
 	google.golang.org/grpc v1.56.1
 	gopkg.in/yaml.v3 v3.0.1
-	honnef.co/go/tools v0.4.3
+	honnef.co/go/tools v0.4.6
 	mvdan.cc/unparam v0.0.0-20230917202934-3ee2d22f45fb
 )
 
