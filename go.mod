@@ -20,7 +20,7 @@ require (
 	github.com/google/safehtml v0.1.0
 	github.com/jba/templatecheck v0.6.0
 	github.com/lib/pq v1.10.9
-	github.com/shurcooL/githubv4 v0.0.0-20230704064427-599ae7bbf278
+	github.com/shurcooL/githubv4 v0.0.0-20240727222349-48295856cce7
 	go.opentelemetry.io/otel v1.11.2
 	go.opentelemetry.io/otel/sdk v1.4.0
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d
