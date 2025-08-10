@@ -1,6 +1,8 @@
 module github.com/khulnasoft-lab/go-vulndb
 
-go 1.18
+go 1.23.0
+
+toolchain go1.24.6
 
 require golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 
@@ -26,7 +28,7 @@ require (
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d
 	golang.org/x/exp/event v0.0.0-20220218215828-6cf2b201936e
 	golang.org/x/mod v0.13.0
-	golang.org/x/oauth2 v0.13.0
+	golang.org/x/oauth2 v0.27.0
 	golang.org/x/sync v0.4.0
 	golang.org/x/time v0.3.0
 	golang.org/x/tools v0.14.0
@@ -40,7 +42,7 @@ require (
 require (
 	cloud.google.com/go v0.110.2 // indirect
 	cloud.google.com/go/compute v1.20.1 // indirect
-	cloud.google.com/go/compute/metadata v0.2.3 // indirect
+	cloud.google.com/go/compute/metadata v0.3.0 // indirect
 	cloud.google.com/go/iam v1.1.0 // indirect
 	cloud.google.com/go/longrunning v0.4.2 // indirect
 	cloud.google.com/go/monitoring v1.13.0 // indirect
